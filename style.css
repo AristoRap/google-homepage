@@ -19,6 +19,20 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+#navbar-container{
+    position: absolute;
+    top:15px;
+    right:1em;
+    padding-top:5px ;
+}
+
+.navbar-item{
+    margin: 5px;
+    vertical-align:super;
+    padding-top: 5px;
+}
+
+
 .center-container{
     display: grid;
     grid-template-rows: 1fr 1fr;
