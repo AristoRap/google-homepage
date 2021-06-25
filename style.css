@@ -33,26 +33,24 @@ time, mark, audio, video {
     font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
-    color:#4e5155
+    color:rgb(78, 81, 85)
 
 }
 
 .navbar-icon{
-    color: #4e5155;
     padding: 5px;
     border-radius: 50%;
+}
 
-}.navbar-icon:hover{
-    background-color: #d0cfcf;
+
+.navbar-icon:hover{
+    background-color: #dfdfdf;
 }
 
 
 .center-container{
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr;
-    grid-row-gap: 10px;
-    justify-items: center;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     margin-top: 16em;
 }
@@ -78,16 +76,18 @@ time, mark, audio, video {
     background-color: transparent;
     width: 530px;
     border-style:none;
-    z-index: 1;
-    margin-left: 40px;
-    margin-top: 13px;
-    margin-right:13px;
-    font-size: 16px;
+    z-index: 2;
+    margin: 13px 40px 13px 40px;
+    padding-right: 1px;
+    width: 515px;
+    height: 18px;
+    padding-left: 1px;
 }
 
 #search-container{
     display: flex;
     flex-direction: row;
+    margin-top: 2em;
 }
 
 .search-bar:focus-visible{
@@ -101,4 +101,11 @@ time, mark, audio, video {
     padding-top: 13px;
     transform: scale(0.85);
     color: rgb(165, 165, 165);
+}
+
+#voice-search{
+height: 24px;
+position: absolute;
+padding: 10px 12px 10px 560px;
+z-index:1;
 }
