@@ -42,11 +42,11 @@ time, mark, audio, video {
 }
 
 .search-bar-outline:hover{
-    box-shadow: 0 0 5px grey;
+    box-shadow: 0 0 5px rgb(160, 158, 158);
 }
 
 
-.search-bar{;
+.search-bar{
     background-color: transparent;
     width: 530px;
     border-style:none;
@@ -73,5 +73,4 @@ time, mark, audio, video {
     padding-top: 13px;
     transform: scale(0.85);
     color: rgb(165, 165, 165);
-    
 }
