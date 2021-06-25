@@ -29,27 +29,43 @@ time, mark, audio, video {
     margin-top: 16em;
 }
 
-.search-bar{
-    margin-bottom: 10px;
+
+.search-bar-outline{
+    position: absolute;
     width: 550px;
-    padding: 15px;
-    border-radius: 50px;
+    padding: 22px;
+    border-radius: 45px;
     border-style: solid;
-    border-color: rgb(207, 207, 207);
-    border-width: 1px;
+    border-color:rgb(204, 204, 204);
+    border-width:1px;
+    z-index: 0;
+}
+
+.search-bar{;
+    background-color: transparent;
+    width: 530px;
+    padding: 14px;
+    border-style:none;
+    z-index: 1;
+    margin-left: 25px;
+    font-size: 16px;
 }
 
 #search-container{
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
 }
+
+.search-bar:focus-visible{
+    outline: transparent;
+}
+
 
 .search-icon{
     position: absolute;
     padding-left: 12px;
     padding-top: 13px;
     transform: scale(0.85);
-    color: grey;
+    color: rgb(165, 165, 165);
     
 }
