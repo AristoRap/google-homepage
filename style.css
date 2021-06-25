@@ -41,13 +41,19 @@ time, mark, audio, video {
     z-index: 0;
 }
 
+.search-bar-outline:hover{
+    box-shadow: 0 0 5px grey;
+}
+
+
 .search-bar{;
     background-color: transparent;
     width: 530px;
-    padding: 14px;
     border-style:none;
     z-index: 1;
-    margin-left: 25px;
+    margin-left: 40px;
+    margin-top: 13px;
+    margin-right:13px;
     font-size: 16px;
 }
 
