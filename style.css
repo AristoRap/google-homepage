@@ -19,16 +19,22 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
-
-#logo-img{
-    display: flex;
-    flex-direction: column;
+.center-container{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-row-gap: 10px;
+    justify-items: center;
     align-items: center;
+    margin-top: 16em;
 }
 
 #search-bar{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    margin-bottom: 10px;
+    width: 550px;
+    padding: 15px;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: rgb(207, 207, 207);
+    border-width: 1px;
 }
-
