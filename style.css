@@ -142,6 +142,15 @@ a {
     padding: 10px 15px;
     letter-spacing: 0.1px;
     background-color: #F8F9FA;
+    color:#4e5155;
+}
+
+.search-buttons a:visited{
+    color:#4e5155;
+}
+
+.search-buttons:active{
+    border:1px solid rgb(0, 135, 212);
 }
 
 .search-buttons:hover{
@@ -179,4 +188,8 @@ a {
 .footer-item{
     margin: 0 13px;
     color: hsl(0, 0%, 50%)
+}
+
+.footer-item:hover{
+    text-decoration: underline;
 }
