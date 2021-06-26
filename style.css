@@ -122,3 +122,24 @@ align-self: flex-end;
 padding-right: 15px;
 }
 
+.buttons-container{
+    display: inherit;
+    flex-direction: row;
+    column-gap: 1em;
+    height: 2em;
+    padding: 2em 0;
+    align-items: center;
+}
+
+.search-buttons{
+    border-style: none;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 10px 15px;
+    letter-spacing: 0.1px;
+    background-color: #F8F9FA;
+}
+
+.search-buttons:hover{
+    box-shadow: 0 0 3px 1px #dddcdc;
+}
