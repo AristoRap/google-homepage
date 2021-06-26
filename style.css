@@ -26,6 +26,10 @@ time, mark, audio, video {
     padding-top:5px ;
 }
 
+a {
+    text-decoration: none;
+}
+
 .navbar-item{
     margin: 10px;
     vertical-align:super;
@@ -33,7 +37,7 @@ time, mark, audio, video {
     font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
-    color:rgb(78, 81, 85)
+    color:#4e5155
 
 }
 
@@ -150,16 +154,29 @@ time, mark, audio, video {
     flex-direction: row;
     width: 100%;
     position: absolute;
-    bottom: 30px;
-    padding: 10px 20px;
+    bottom: 20px;
+    padding: 23px 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color: hsl(0, 1%, 95%);
+    margin:-20px 0;
+    align-items: center;
+    border-style: solid;
+    border-top: 1px solid hsl(0, 1%, 80%);
 }
 
 .footer-container-left{
     position: absolute;
-    left: 20px;
+    left: 25px;
 }
 
 .footer-container-right{
     position: absolute;
-    right: 20px;
+    right: 25px;
+}
+
+.footer-item{
+    margin: 0 13px;
+    color: hsl(0, 0%, 50%)
 }
