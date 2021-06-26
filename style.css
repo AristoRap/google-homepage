@@ -116,10 +116,10 @@ time, mark, audio, video {
 }
 
 #voice-search{
-height: 24px;
-position: absolute;
-align-self: flex-end;
-padding-right: 15px;
+    height: 24px;
+    position: absolute;
+    align-self: flex-end;
+    padding-right: 15px;
 }
 
 .buttons-container{
@@ -142,4 +142,24 @@ padding-right: 15px;
 
 .search-buttons:hover{
     box-shadow: 0 0 3px 1px #dddcdc;
+}
+
+
+#footer-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: absolute;
+    bottom: 30px;
+    padding: 10px 20px;
+}
+
+.footer-container-left{
+    position: absolute;
+    left: 20px;
+}
+
+.footer-container-right{
+    position: absolute;
+    right: 20px;
 }
