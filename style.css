@@ -73,15 +73,17 @@ time, mark, audio, video {
 }
 
 #logo-img{
-    margin-bottom: 10px;
+    margin-bottom: 25px;
 }
 
 
 .search-bar{
-    background-color: silver;
-    width: 40em;
+    background-color: white;
+    width: 30em;
+    height: 0.6em;
     margin: 1em 3em;
-    outline: slateblue;
+    border-style: none;
+    font-size: 16px;
 }
 
 #search-container{
@@ -92,6 +94,7 @@ time, mark, audio, video {
     border-width: 1px;
     border-style: solid;
     border-radius: 30px;
+    border-color: rgb(230, 230, 230);
 }
 
 .search-bar:focus-visible{
@@ -103,11 +106,12 @@ time, mark, audio, video {
     position: absolute;
     transform: scale(0.85);
     color: rgb(165, 165, 165);
-    margin-left: 10px;
+    margin-left: 15px;
 }
 
 #voice-search{
 height: 24px;
 position: absolute;
-padding: 10px 12px 10px 560px;
+align-self: flex-end;
+padding-right: 15px;
 }
