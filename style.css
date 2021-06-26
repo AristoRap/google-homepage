@@ -19,11 +19,27 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
-#navbar-container{
+.navbar-flex{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
     position: absolute;
-    top:5px;
-    right:1em;
-    padding-top:5px ;
+    top: 7px;
+    padding: 0 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: -5px;
+    align-items: center;
+    right: 11px;
 }
 
 a {
@@ -31,37 +47,32 @@ a {
 }
 
 .navbar-item{
-    margin: 10px;
-    vertical-align:super;
-    padding-top: 5px;
+    margin: 10px 10px;
     font-size: 13px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    color:#4e5155
-
+    color:#4e5155;
 }
 
 .navbar-item-1:hover, .navbar-item-2:hover{
     text-decoration: underline;
 }
 
-.navbar-item-3{
-    padding: 5px;
-    border-radius: 50%;
-}
 
+.navbar-item-3{
+    border-radius: 50%;
+    padding:5px;
+}
 
 .navbar-item-3:hover{
     background-color: #eeecec;
     box-shadow: 0 1px 0 1.5px #eeecec;
 }
 
+
 .navbar-item-4{
-    margin: 0;
-    padding: 9px 8px ;
-    border-radius: 50%;
     background-color: hsl(174, 100%, 27%);
     color: white;
+    padding: 9.5px 8px;
+    border-radius: 50%;
 }
 
 .navbar-item-4:hover{
