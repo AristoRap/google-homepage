@@ -21,13 +21,13 @@ time, mark, audio, video {
 
 #navbar-container{
     position: absolute;
-    top:15px;
+    top:5px;
     right:1em;
     padding-top:5px ;
 }
 
 .navbar-item{
-    margin: 13px;
+    margin: 10px;
     vertical-align:super;
     padding-top: 5px;
     font-size: 13px;
@@ -37,16 +37,33 @@ time, mark, audio, video {
 
 }
 
-.navbar-icon{
+.navbar-item-1:hover, .navbar-item-2:hover{
+    text-decoration: underline;
+}
+
+.navbar-item-3{
     padding: 5px;
     border-radius: 50%;
 }
 
 
-.navbar-icon:hover{
-    background-color: #dfdfdf;
+.navbar-item-3:hover{
+    background-color: #eeecec;
+    box-shadow: 0 1px 0 1.5px #eeecec;
 }
 
+.navbar-item-4{
+    margin: 0;
+    padding: 9px 8px ;
+    border-radius: 50%;
+    background-color: hsl(174, 100%, 27%);
+    color: white;
+}
+
+.navbar-item-4:hover{
+    box-shadow: 0 0 0 2px #eeecec;
+
+}
 
 .center-container{
     display: flex;
@@ -55,39 +72,21 @@ time, mark, audio, video {
     margin-top: 16em;
 }
 
-
-.search-bar-outline{
-    position: absolute;
-    width: 550px;
-    padding: 22px;
-    border-radius: 45px;
-    border-style: solid;
-    border-color:rgb(204, 204, 204);
-    border-width:1px;
-    z-index: 0;
-}
-
-.search-bar-outline:hover{
-    box-shadow: 0 0 5px rgb(160, 158, 158);
+#logo-img{
+    margin-bottom: 10px;
 }
 
 
 .search-bar{
-    background-color: transparent;
-    width: 530px;
-    border-style:none;
-    z-index: 2;
-    margin: 13px 40px 13px 40px;
-    padding-right: 1px;
-    width: 515px;
-    height: 18px;
-    padding-left: 1px;
+    background-color: silver;
+    width: 40em;
+    margin: 0 3em;
 }
 
 #search-container{
     display: flex;
     flex-direction: row;
-    margin-top: 2em;
+    align-items: flex-end;
 }
 
 .search-bar:focus-visible{
@@ -107,5 +106,4 @@ time, mark, audio, video {
 height: 24px;
 position: absolute;
 padding: 10px 12px 10px 560px;
-z-index:1;
 }
