@@ -80,13 +80,18 @@ time, mark, audio, video {
 .search-bar{
     background-color: silver;
     width: 40em;
-    margin: 0 3em;
+    margin: 1em 3em;
+    outline: slateblue;
 }
 
 #search-container{
     display: flex;
-    flex-direction: row;
-    align-items: flex-end;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:center;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 30px;
 }
 
 .search-bar:focus-visible{
@@ -96,10 +101,9 @@ time, mark, audio, video {
 
 .search-icon{
     position: absolute;
-    padding-left: 12px;
-    padding-top: 13px;
     transform: scale(0.85);
     color: rgb(165, 165, 165);
+    margin-left: 10px;
 }
 
 #voice-search{
