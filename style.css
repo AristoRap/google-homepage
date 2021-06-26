@@ -84,7 +84,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 16em;
+    margin-top: 100px;
 }
 
 #logo-img{
